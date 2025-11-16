@@ -1,0 +1,193 @@
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+
+.phone{
+    width: 250px;
+    height: 520px;
+    border: 2px solid black;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+ 
+}
+
+.avatar{
+   width: 40px;
+    height: 40px ;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 10px;
+  
+}
+
+.phone-head{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    border-bottom: 1px solid #e5e5e5;
+    box-sizing: border-box;
+}
+
+.profile{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+    margin-left: 20px;
+}
+
+
+
+.name{
+    font-size: 18px;
+    font-weight: bold;
+    justify-content: center;
+    margin-bottom: 5px;
+    align-items: center;
+   
+    
+}
+
+.text-box{
+    margin-right: 80px;
+}
+
+.name,
+.status {
+    margin: 0;        /* removes all extra space */
+    padding: 0;       /* optional: removes any padding */
+}
+
+.status{
+    font-size: 10px;
+}
+
+.right-side{
+   width: 350px;
+   padding: 120px;
+   justify-content: center;
+    gap: 80px;
+
+}
+
+
+
+.received1{
+    border: 2px solid black;
+ border-radius:8px ;
+ font-size: 13px;
+ width: 60%;
+ margin-left: 10px;
+ padding: 5px;
+ 
+}
+
+.received2{
+    border: 2px solid black;
+ border-radius:8px ;
+ font-size: 13px;
+ width: 60%;
+ margin-left: 10px;
+ padding: 5px;
+ 
+}
+
+
+
+.chatsent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;      /* stack image box above text box */
+    align-items: flex-end;       /* align BOTH boxes to the right */
+    margin-top: 10px;
+   
+}
+
+/* image container */
+.sent-img-box {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 6px;   
+     margin-right: 10px;       /* space between image box and text box */
+}
+
+/* images inside */
+.sent-img-box img {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+   
+}
+
+/* text bubble */
+.sent-text-box {
+    
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 8px;
+    max-width: 60%;
+    font-size: 13px;
+     margin-right: 10px;
+}
+
+.received3{
+    border: 2px solid black;
+ border-radius:8px ;
+ font-size: 13px;
+ width: 60%;
+ margin-left: 10px;
+ padding: 5px;
+ 
+}
+
+.pricing-option{
+  
+    border: 2px solid black;
+ border-radius:8px ;
+ font-size: 13px;
+ width: 60%;
+ margin-left: 10px;
+ padding: 5px;
+ margin-top: 0px;
+
+}
+
+.pricing-optionss{
+  
+    border: 2px solid black;
+ border-radius:8px ;
+ font-size: 13px;
+ width: 60%;
+ margin-left: 10px;
+ padding: 5px;
+ margin-top: 8px;
+
+}
+
+.message-input{
+    margin-top: 13px;
+    margin-left: 10px;
+    
+}
+
+.input{
+    border-radius: 18px;
+    height: 30px;
+    text-align: center;
+}
+
+.btn{
+    border-radius: 15px;
+}
